@@ -1,8 +1,8 @@
 cask "texere" do
-  version "0.1.6-alpha"
-  sha256 "5dd460adcf49f09a8db64599afcfb56b9c46f97bdfd5b8a8ecd810e96fa8bb9a"
+  version "0.2.2-alpha"
+  sha256 "b7d025d23a8841effccb888a4db06a29dc320f8a0686f800e9d3bf60286d7dbe"
 
-  url "https://github.com/Endlex-net/Texere/releases/download/v#{version}/Texere_0.1.0_aarch64.dmg"
+  url "https://github.com/Endlex-net/Texere/releases/download/v0.2.2-alpha/Texere-0.2.2-alpha-aarch64.dmg"
   name "Texere"
   desc "Quick draft tool for deep input workflows"
   homepage "https://github.com/Endlex-net/Texere"
