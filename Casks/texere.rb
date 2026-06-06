@@ -8,4 +8,9 @@ cask "texere" do
   homepage "https://github.com/Endlex-net/Texere"
 
   app "Texere.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/Texere.app"]
+  end
 end
