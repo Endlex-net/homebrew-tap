@@ -1,16 +1,16 @@
 class Ocdeck < Formula
   desc "自托管的 opencode 任务编排 Web 控制台"
   homepage "https://github.com/Endlex-net/ex-ocdeck"
-  version "0.0.30"
+  version "0.0.31"
 
   on_arm do
-    url "https://github.com/Endlex-net/ex-ocdeck/releases/download/v0.0.30/ocdeck_darwin_arm64.tar.gz"
-    sha256 "6360b6abfec30d418c681dc395ca758d9f30c3143a3ea4f0714f453692d0a245"
+    url "https://github.com/Endlex-net/ex-ocdeck/releases/download/v0.0.31/ocdeck_darwin_arm64.tar.gz"
+    sha256 "543c9a71d60388c07b11e20c0b8b3c2772c2410e9d744712a60b5750a92a0247"
   end
 
   on_intel do
-    url "https://github.com/Endlex-net/ex-ocdeck/releases/download/v0.0.30/ocdeck_darwin_amd64.tar.gz"
-    sha256 "9e14f9f566f3412d8ea55c2191dafb4d340f0f14d8377c9461d19618dca6e51e"
+    url "https://github.com/Endlex-net/ex-ocdeck/releases/download/v0.0.31/ocdeck_darwin_amd64.tar.gz"
+    sha256 "97d1fab57ac57d70bb07bc304adf5001d2e20ad219b4744dd8676c44a5324d44"
   end
 
   depends_on "tmux"
